@@ -1,0 +1,65 @@
+{
+  "id": "eoh-as1b-burn",
+  "styles": [
+    "styles/main.css"
+  ],
+  "title": "Echoes of Heaven AS1b: To Burn a Witch",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12.343",
+    "verified": "13.347",
+    "maximum": "13.999"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "ghorin-journal-scenes",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Robert J Defendi",
+      "email": "robert@robertjdefendi.com",
+      "url": "www.finalredoubt.com",
+      "discord": "defendi",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/rdefendi/eoh-as1b-burn",
+  "packs": [
+    {
+      "name": "eoh-as1b-burn",
+      "label": "EoH: AS1b To Burn a Witch",
+      "path": "packs/eoh-as1b-burn",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "bestiary",
+      "label": "Bestiary",
+      "path": "packs/bestiary",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
